@@ -1,0 +1,229 @@
+2025-07-24 11:22:47 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 11:22:58 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 12:22:33 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 12:35:40 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 12:37:57 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 12:38:10 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 12:38:33 DEBUG [isMember] - ==>  Preparing: SELECT COUNT(*) FROM USER_MEMBER WHERE ID = ?
+2025-07-24 12:38:33 DEBUG [isMember] - ==> Parameters: user1(String)
+2025-07-24 12:38:33 DEBUG [isMember] - <==      Total: 1
+2025-07-24 12:38:34 DEBUG [insertMember] - ==>  Preparing: INSERT INTO USER_MEMBER(ID, PW, MAIL, PHONE) VALUES(?, ?, ?, ?)
+2025-07-24 12:38:34 DEBUG [insertMember] - ==> Parameters: user1(String), $2a$10$KRL4TFAL98kI56lF7T3JdevamasbnXMKldrL7Z2qmLxj0.ffzld0K(String), user1@gmail.com(String), 010-1234-0000(String)
+2025-07-24 12:38:34 DEBUG [insertMember] - <==    Updates: 1
+2025-07-24 13:02:23 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:39:26 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:39:42 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 13:40:10 DEBUG [isMember] - ==>  Preparing: SELECT COUNT(*) FROM USER_MEMBER WHERE ID = ?
+2025-07-24 13:40:10 DEBUG [isMember] - ==> Parameters: user2(String)
+2025-07-24 13:40:10 DEBUG [isMember] - <==      Total: 1
+2025-07-24 13:40:10 DEBUG [insertMember] - ==>  Preparing: INSERT INTO USER_MEMBER(ID, PW, MAIL, PHONE) VALUES(?, ?, ?, ?)
+2025-07-24 13:40:10 DEBUG [insertMember] - ==> Parameters: user2(String), $2a$10$Q1DC1JaSGHIn.Tru3TlN3.jTFqJfyfajVEsJHFsNzfBRQ4yqwFONe(String), user2@gmail.com(String), 010-2222-2222(String)
+2025-07-24 13:40:10 DEBUG [insertMember] - <==    Updates: 1
+2025-07-24 13:47:14 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:47:28 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 13:47:35 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 13:47:35 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 13:47:35 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 13:52:44 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:52:58 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 13:53:08 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 13:53:08 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 13:53:08 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 13:58:58 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 13:59:07 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 13:59:18 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 13:59:18 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 13:59:18 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 13:59:31 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 13:59:31 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 13:59:31 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 13:59:42 DEBUG [updateMember] - ==>  Preparing: UPDATE USER_MEMBER SET PW = ?, MAIL = ?, PHONE = ?, MOD_DATE = NOW() WHERE NO = ?
+2025-07-24 13:59:42 DEBUG [updateMember] - ==> Parameters: $2a$10$cH2kbxY.1POmXomfvx2ZJuWU4WtxGDVGbnrygrBa.4DhAy6ZYaF9q(String), user2@gmail.com(String), 010-2222-2222(String), 4(Integer)
+2025-07-24 13:59:42 DEBUG [updateMember] - <==    Updates: 1
+2025-07-24 14:05:40 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 14:05:47 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 14:05:55 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 14:05:55 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 14:05:55 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 14:13:14 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 14:13:20 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 14:13:29 DEBUG [MemberMapper] - Cache Hit Ratio [com.office.calendar.member.mapper.MemberMapper]: 0.0
+2025-07-24 14:13:29 DEBUG [selectMemberByID] - ==>  Preparing: SELECT * FROM USER_MEMBER WHERE ID = ?
+2025-07-24 14:13:29 DEBUG [selectMemberByID] - ==> Parameters: user2(String)
+2025-07-24 14:13:29 DEBUG [selectMemberByID] - <==      Total: 1
+2025-07-24 16:08:18 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:09:25 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:10:26 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 16:19:38 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 16:19:47 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 17:30:14 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-24 17:30:24 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 17:31:22 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 17:32:19 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 17:32:26 DEBUG [HomeController] - DEBUG: home()
+2025-07-24 17:32:33 DEBUG [HomeController] - DEBUG: home()
+2025-07-25 10:39:28 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-25 10:42:42 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-25 10:47:53 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-25 10:49:20 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-28 11:52:02 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-28 11:54:45 DEBUG [HomeController] - DEBUG: home()
+2025-07-28 12:04:57 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-28 12:07:00 DEBUG [HomeController] - DEBUG: home()
+2025-07-28 12:15:01 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-28 12:15:09 DEBUG [HomeController] - DEBUG: home()
+2025-07-28 14:54:33 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-28 14:54:54 DEBUG [HomeController] - DEBUG: home()
+2025-07-30 11:21:28 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-30 11:21:43 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:38:43 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 09:39:05 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:39:43 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:39:57 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:50:41 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 09:51:10 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:51:23 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 09:51:35 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:02:52 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:03:17 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:03:52 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:05:20 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:05:44 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:09:29 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:09:39 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:10:10 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:30:25 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:30:37 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:38:12 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:38:28 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:41:52 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:42:05 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:45:34 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:45:44 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:46:06 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:58:04 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 10:58:13 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 10:58:48 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:01:54 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:02:01 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:03:11 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:03:19 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:08:25 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:08:32 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:21:47 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:21:55 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:35:26 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:35:38 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:45:14 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:45:24 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:50:47 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:50:56 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 11:55:02 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 11:55:16 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 12:18:04 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 12:18:20 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 12:18:25 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 13:44:57 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 13:45:10 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 13:49:46 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 13:49:59 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:00:16 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:00:31 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:11:59 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:12:09 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:14:53 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:15:45 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:18:44 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:18:57 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:19:50 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:20:12 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:37:22 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:37:31 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:39:26 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:41:21 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:41:33 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:47:07 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:47:16 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:59:25 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 14:59:33 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 14:59:58 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 15:00:06 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 15:07:00 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 15:07:23 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 15:08:58 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 15:09:10 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 15:46:55 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 15:47:11 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 16:02:21 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 16:02:34 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 16:03:31 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 16:15:46 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 16:15:56 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 16:20:19 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 16:20:32 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:05:50 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:06:01 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:06:25 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:06:45 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:06:53 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:08:50 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:08:58 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:09:42 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:10:22 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:11:01 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:11:23 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:11:36 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:11:46 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:16:57 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:17:12 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:18:18 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:18:41 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:20:53 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:21:02 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:46:05 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:46:20 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:46:26 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:53:22 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:53:39 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 17:58:53 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 17:59:06 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 18:02:05 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 18:02:21 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 18:02:42 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 18:02:44 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 18:04:35 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-31 18:04:45 DEBUG [HomeController] - DEBUG: home()
+2025-07-31 18:04:48 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 09:26:12 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 09:32:13 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 09:32:46 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 10:47:16 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 11:40:47 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 11:41:08 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 11:53:03 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 11:53:36 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 13:35:51 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 13:36:08 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 13:58:33 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 13:58:48 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 14:02:17 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 14:04:34 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 14:04:45 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 14:07:37 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 14:07:48 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 17:45:00 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-01 17:45:21 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 17:46:08 DEBUG [HomeController] - DEBUG: home()
+2025-08-01 17:55:21 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 09:28:08 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 09:28:26 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 09:39:00 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 09:39:18 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 10:00:53 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 10:01:02 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 10:02:28 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 10:02:41 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 10:04:43 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 10:05:04 DEBUG [HomeController] - DEBUG: home()
+2025-08-04 10:09:44 DEBUG [CalendarApplication] - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-04 10:09:56 DEBUG [HomeController] - DEBUG: home()
